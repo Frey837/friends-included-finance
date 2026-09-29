@@ -2,9 +2,9 @@ import FinanceApp from '@/components/FinanceApp.js'
 
 export default function Page() {
   const links = {
-    telegram: process.env.NEXT_PUBLIC_TELEGRAM_BOT_URL || '',
+    telegram: 'https://t.me/friends_included_frey837_bot',
     sheets: process.env.NEXT_PUBLIC_GOOGLE_SHEET_URL || '',
-    github: process.env.NEXT_PUBLIC_GITHUB_URL || ''
+    github: 'https://github.com/Frey837/friends-included-finance'
   }
   return (
     <main>

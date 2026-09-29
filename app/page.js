@@ -3,7 +3,7 @@ import FinanceApp from '@/components/FinanceApp.js'
 export default function Page() {
   const links = {
     telegram: 'https://t.me/friends_included_frey837_bot',
-    sheets: process.env.NEXT_PUBLIC_GOOGLE_SHEET_URL || '',
+    sheets: 'https://docs.google.com/spreadsheets/d/13uPTAIpm_AssbvYC1prpxAKWEqX8Lwkss23cLHDu2t4/edit',
     github: 'https://github.com/Frey837/friends-included-finance'
   }
   return (
